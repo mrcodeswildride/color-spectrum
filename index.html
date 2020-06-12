@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Color Spectrum</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="style.css" rel="stylesheet">
+	<script src="script.js" defer>
+
+	</script>
+</head>
+
+<body>
+	<h1>Color Spectrum</h1>
+
+  <div class="cell">
+    <div class="row label" id="rgbForRed">
+      Loop through red values (0 - 255)
+    </div>
+
+    <div class="row">
+      <label for="greenSliderForRed">Green</label>
+      <input type="range" min="0" max="255" value="0" id="greenSliderForRed">
+    </div>
+
+    <div class="row">
+      <label for="blueSliderForRed">Blue</label>
+      <input type="range" min="0" max="255" value="0" id="blueSliderForRed">
+    </div>
+
+    <div class="spectrum" id="redSpectrum"></div>
+  </div>
+
+  <div class="cell">
+    <div class="row label" id="rgbForGreen">
+      Loop through green values (0 - 255)
+    </div>
+
+    <div class="row">
+      <label for="redSliderForGreen">Red</label>
+      <input type="range" min="0" max="255" value="0" id="redSliderForGreen">
+    </div>
+
+    <div class="row">
+      <label for="blueSliderForGreen">Blue</label>
+      <input type="range" min="0" max="255" value="0" id="blueSliderForGreen">
+    </div>
+
+    <div class="spectrum" id="greenSpectrum"></div>
+  </div>
+
+  <div class="cell">
+    <div class="row label" id="rgbForBlue">
+      Loop through blue values (0 - 255)
+    </div>
+
+    <div class="row">
+      <label for="redSliderForBlue">Red</label>
+      <input type="range" min="0" max="255" value="0" id="redSliderForBlue">
+    </div>
+
+    <div class="row">
+      <label for="greenSliderForBlue">Green</label>
+      <input type="range" min="0" max="255" value="0" id="greenSliderForBlue">
+    </div>
+
+    <div class="spectrum" id="blueSpectrum"></div>
+  </div>
+</body>
+
+</html>

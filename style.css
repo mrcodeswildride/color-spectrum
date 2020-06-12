@@ -1,0 +1,33 @@
+body {
+  background-color: beige;
+}
+
+.cell {
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.row {
+  margin-bottom: 25px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+label,
+input {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+label {
+  width: 50px;
+}
+
+.sliver {
+  display: inline-block;
+  width: 1px;
+  height: 40px;
+}
