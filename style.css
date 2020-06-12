@@ -12,10 +12,6 @@ body {
   margin-bottom: 25px;
 }
 
-.label {
-  font-weight: bold;
-}
-
 label,
 input {
   display: inline-block;

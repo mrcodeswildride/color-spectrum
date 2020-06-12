@@ -76,7 +76,7 @@ function showRgbForRed() {
 }
 
 function hideRgbForRed() {
-  rgbForRed.innerHTML = `Loop through red values (0 - 255)`
+  rgbForRed.innerHTML = `Loop through red values`
 }
 
 function showRgbForGreen() {
@@ -84,7 +84,7 @@ function showRgbForGreen() {
 }
 
 function hideRgbForGreen() {
-  rgbForGreen.innerHTML = `Loop through green values (0 - 255)`
+  rgbForGreen.innerHTML = `Loop through green values`
 }
 
 function showRgbForBlue() {
@@ -92,5 +92,5 @@ function showRgbForBlue() {
 }
 
 function hideRgbForBlue() {
-  rgbForBlue.innerHTML = `Loop through blue values (0 - 255)`
+  rgbForBlue.innerHTML = `Loop through blue values`
 }
