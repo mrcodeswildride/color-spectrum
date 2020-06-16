@@ -13,6 +13,10 @@ let redSliderForBlue = document.getElementById(`redSliderForBlue`)
 let greenSliderForBlue = document.getElementById(`greenSliderForBlue`)
 let blueSpectrum = document.getElementById(`blueSpectrum`)
 
+makeRed()
+makeGreen()
+makeBlue()
+
 greenSliderForRed.addEventListener(`input`, makeRed)
 blueSliderForRed.addEventListener(`input`, makeRed)
 
@@ -21,10 +25,6 @@ blueSliderForGreen.addEventListener(`input`, makeGreen)
 
 redSliderForBlue.addEventListener(`input`, makeBlue)
 greenSliderForBlue.addEventListener(`input`, makeBlue)
-
-makeRed()
-makeGreen()
-makeBlue()
 
 function makeRed() {
   redSpectrum.innerHTML = ``
